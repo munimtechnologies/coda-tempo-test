@@ -32,6 +32,11 @@ this independently replicates, on different data and with a calibrated test, the
 within-whale duration bimodality that Begus et al. (2026, Proc. R. Soc. B 293:20252994) tied
 to coda vowel quality.
 
+**Prior art ([PRIOR-ART.md](PRIOR-ART.md)).** After grading we read the 2024 paper's
+supplement. It derives the five tempo types only from the pooled duration distribution and
+never tests a rhythm-mixing null or multimodality within a single rhythm, so T1, T3 and T4 are
+new as far as we can find, and T2 is new for every rhythm except 1+1+3.
+
 ## What is here
 
 This project tests the claim directly, with calibrated nulls, on the paper's own public data
