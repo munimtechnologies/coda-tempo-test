@@ -26,10 +26,19 @@ standard library) runs as job `coda-tempo-v1`. It waits until the pre-registrati
 public, then downloads the data at a fixed commit. `test_tempo.py` holds its unit tests.
 Results will be published here whichever way they fall.
 
-Status (2026-11-19): registered and queued; no results yet.
+**Grader, published before the result.** `test_tempo_results.py` does not import `tempo.py`.
+With its own code it re-derives gates G1 and G2, every Holm decision, the T1-T4 labels, the
+ten graded predictions and the Brier score from the job's raw output
+(`results/tempo/tempo_results.json`). It checks every p value, occupancy count, entropy ratio,
+unit share and calibration rate for internal consistency, and it fixes the exact lines
+RESULTS-TEMPO.md must print. Where a rhythm is not rejected and the calibrated power at its
+size is below 0.8, its row says "low", as the pre-registration requires. Its result tests are
+skipped until the output is published; its toy-data tests always run.
+
+Status (2026-11-19): registered, grader published, job queued; no results yet.
 
 ```
-python -m unittest -v test_tempo
+python -m unittest -v test_tempo test_tempo_results
 python tempo.py --out-dir out
 ```
 
