@@ -1,0 +1,2452 @@
+{
+ "version": "tempo-1.0",
+ "python": "3.12.16",
+ "code_sha256": "5807329b464672ad3605df7d1b69ed7a3805d711a8fb1fcac2b3fcba90b301ec",
+ "config": {
+  "bw": 0.035,
+  "lo": 0.1,
+  "hi": 1.75,
+  "min_n": 30,
+  "tol_mode": 0.03,
+  "tol_gate": 0.011,
+  "alpha": 0.05,
+  "seed": 20261119,
+  "b_t1": 999,
+  "b_t2": 999,
+  "b_t3": 199,
+  "b_k4": 199,
+  "n_sim": 100,
+  "b_sim": 199,
+  "sizes": [
+   50,
+   200,
+   800
+  ],
+  "data_url": "https://raw.githubusercontent.com/pratyushasharma/sw-combinatoriality/7228c8eed2cc27ddd23b74c51aeccec9d762389e/data/DominicaCodas.csv"
+ },
+ "registration": {
+  "found": true,
+  "tries": 1,
+  "utc": "2026-11-19T15:21:01Z",
+  "sha256": "dba8d18d238bc9b9d6b4781be7132f836d6578d45d9d0bde00b690e426917e96"
+ },
+ "data": {
+  "bytes": 747518,
+  "sha256": "53dd44fbfb0040da93656aa44883954f3abe18dd6539e90c625af86a96db6b45",
+  "rows": 8719,
+  "sample": 7737
+ },
+ "gate": {
+  "g1": true,
+  "g2": true,
+  "n": 7737,
+  "maxima": [
+   0.33,
+   0.51,
+   0.8,
+   1.02,
+   1.26
+  ],
+  "minima": [
+   0.45,
+   0.61,
+   0.93,
+   1.08
+  ],
+  "cuts_used": [
+   0.45,
+   0.61,
+   0.93,
+   1.08
+  ],
+  "pooled_cells": [
+   2397,
+   625,
+   1617,
+   811,
+   2287
+  ]
+ },
+ "centroids": [
+  {
+   "key": [
+    3,
+    "3D"
+   ],
+   "labels": {
+    "3D": 61
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    3,
+    "3R"
+   ],
+   "labels": {
+    "3R": 20
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    4,
+    "1+3"
+   ],
+   "labels": {
+    "1+31": 51,
+    "1+32": 71
+   },
+   "known_variant": true
+  },
+  {
+   "key": [
+    4,
+    "4D"
+   ],
+   "labels": {
+    "4D": 219
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    4,
+    "4R"
+   ],
+   "labels": {
+    "4R1": 82,
+    "4R2": 303
+   },
+   "known_variant": true
+  },
+  {
+   "key": [
+    5,
+    "1+1+3"
+   ],
+   "labels": {
+    "1+1+3": 3574
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    5,
+    "2+3"
+   ],
+   "labels": {
+    "2+3": 77
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    5,
+    "5R"
+   ],
+   "labels": {
+    "5R3": 19,
+    "5R1": 1510,
+    "5R2": 287
+   },
+   "known_variant": true
+  },
+  {
+   "key": [
+    6,
+    "6i"
+   ],
+   "labels": {
+    "6i": 182
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    7,
+    "7D"
+   ],
+   "labels": {
+    "7D1": 171,
+    "7D2": 35
+   },
+   "known_variant": true
+  },
+  {
+   "key": [
+    7,
+    "7i"
+   ],
+   "labels": {
+    "7i": 145
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    8,
+    "8D"
+   ],
+   "labels": {
+    "8D": 18
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    8,
+    "8R"
+   ],
+   "labels": {
+    "8R": 41
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    8,
+    "8i"
+   ],
+   "labels": {
+    "8i": 178
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    9,
+    "9R"
+   ],
+   "labels": {
+    "9R": 20
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    9,
+    "9i"
+   ],
+   "labels": {
+    "9i": 135
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    10,
+    "10R"
+   ],
+   "labels": {
+    "10R": 9
+   },
+   "known_variant": false
+  },
+  {
+   "key": [
+    10,
+    "10i"
+   ],
+   "labels": {
+    "10i": 52
+   },
+   "known_variant": false
+  }
+ ],
+ "rf": {
+  "n_assigned": 7727,
+  "n_other": 10,
+  "n_rhythms": 18,
+  "n_analysable": 16,
+  "rhythms": [
+   {
+    "key": [
+     3,
+     "3D"
+    ],
+    "name": "3D",
+    "n": 55,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     53,
+     2,
+     0,
+     0,
+     0
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "3D": 52,
+     "3-NOISE": 2,
+     "3R": 1
+    }
+   },
+   {
+    "key": [
+     3,
+     "3R"
+    ],
+    "name": "3R",
+    "n": 39,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     31,
+     6,
+     2,
+     0,
+     0
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "3R": 19,
+     "3-NOISE": 11,
+     "3D": 9
+    }
+   },
+   {
+    "key": [
+     4,
+     "1+3"
+    ],
+    "name": "1+3",
+    "n": 108,
+    "analysable": true,
+    "known_variant": true,
+    "cells": [
+     74,
+     4,
+     30,
+     0,
+     0
+    ],
+    "occupied": 2,
+    "gero_labels": {
+     "1+32": 71,
+     "1+31": 23,
+     "4-NOISE": 7,
+     "4R1": 4,
+     "4D": 3
+    }
+   },
+   {
+    "key": [
+     4,
+     "4D"
+    ],
+    "name": "4D",
+    "n": 251,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     3,
+     214,
+     27,
+     5,
+     2
+    ],
+    "occupied": 2,
+    "gero_labels": {
+     "4D": 214,
+     "1+31": 18,
+     "4-NOISE": 16,
+     "4R1": 2,
+     "4R2": 1
+    }
+   },
+   {
+    "key": [
+     4,
+     "4R"
+    ],
+    "name": "4R",
+    "n": 406,
+    "analysable": true,
+    "known_variant": true,
+    "cells": [
+     80,
+     11,
+     132,
+     104,
+     79
+    ],
+    "occupied": 4,
+    "gero_labels": {
+     "4R2": 302,
+     "4R1": 76,
+     "4-NOISE": 15,
+     "1+31": 10,
+     "4D": 2,
+     "5-NOISE": 1
+    }
+   },
+   {
+    "key": [
+     5,
+     "1+1+3"
+    ],
+    "name": "1+1+3",
+    "n": 3479,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     112,
+     6,
+     900,
+     617,
+     1844
+    ],
+    "occupied": 3,
+    "gero_labels": {
+     "1+1+3": 3301,
+     "5R1": 109,
+     "5-NOISE": 69
+    }
+   },
+   {
+    "key": [
+     5,
+     "2+3"
+    ],
+    "name": "2+3",
+    "n": 126,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     31,
+     11,
+     84,
+     0,
+     0
+    ],
+    "occupied": 3,
+    "gero_labels": {
+     "2+3": 77,
+     "5-NOISE": 44,
+     "5R1": 5
+    }
+   },
+   {
+    "key": [
+     5,
+     "5R"
+    ],
+    "name": "5R",
+    "n": 2086,
+    "analysable": true,
+    "known_variant": true,
+    "cells": [
+     1436,
+     295,
+     334,
+     5,
+     16
+    ],
+    "occupied": 3,
+    "gero_labels": {
+     "5R1": 1396,
+     "5R2": 287,
+     "1+1+3": 273,
+     "5-NOISE": 110,
+     "5R3": 19,
+     "6-NOISE": 1
+    }
+   },
+   {
+    "key": [
+     6,
+     "6i"
+    ],
+    "name": "6i",
+    "n": 347,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     147,
+     32,
+     58,
+     38,
+     72
+    ],
+    "occupied": 5,
+    "gero_labels": {
+     "6i": 182,
+     "6-NOISE": 162,
+     "6R": 3
+    }
+   },
+   {
+    "key": [
+     7,
+     "7D"
+    ],
+    "name": "7D",
+    "n": 212,
+    "analysable": true,
+    "known_variant": true,
+    "cells": [
+     3,
+     4,
+     7,
+     28,
+     170
+    ],
+    "occupied": 2,
+    "gero_labels": {
+     "7D1": 162,
+     "7D2": 35,
+     "7i": 8,
+     "7-NOISE": 7
+    }
+   },
+   {
+    "key": [
+     7,
+     "7i"
+    ],
+    "name": "7i",
+    "n": 148,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     110,
+     19,
+     7,
+     8,
+     4
+    ],
+    "occupied": 2,
+    "gero_labels": {
+     "7i": 137,
+     "7D1": 9,
+     "7-NOISE": 2
+    }
+   },
+   {
+    "key": [
+     8,
+     "8D"
+    ],
+    "name": "8D",
+    "n": 23,
+    "analysable": false,
+    "known_variant": false,
+    "cells": [
+     0,
+     0,
+     0,
+     0,
+     23
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "8D": 18,
+     "8-NOISE": 3,
+     "8R": 2
+    }
+   },
+   {
+    "key": [
+     8,
+     "8R"
+    ],
+    "name": "8R",
+    "n": 43,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     3,
+     3,
+     3,
+     1,
+     33
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "8R": 33,
+     "8i": 8,
+     "8-NOISE": 2
+    }
+   },
+   {
+    "key": [
+     8,
+     "8i"
+    ],
+    "name": "8i",
+    "n": 177,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     157,
+     7,
+     9,
+     0,
+     4
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "8i": 170,
+     "8R": 6,
+     "8-NOISE": 1
+    }
+   },
+   {
+    "key": [
+     9,
+     "9R"
+    ],
+    "name": "9R",
+    "n": 36,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     4,
+     1,
+     2,
+     3,
+     26
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "9R": 18,
+     "9-NOISE": 10,
+     "9i": 8
+    }
+   },
+   {
+    "key": [
+     9,
+     "9i"
+    ],
+    "name": "9i",
+    "n": 129,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     109,
+     6,
+     13,
+     0,
+     1
+    ],
+    "occupied": 2,
+    "gero_labels": {
+     "9i": 127,
+     "9R": 2
+    }
+   },
+   {
+    "key": [
+     10,
+     "10R"
+    ],
+    "name": "10R",
+    "n": 18,
+    "analysable": false,
+    "known_variant": false,
+    "cells": [
+     7,
+     0,
+     1,
+     1,
+     9
+    ],
+    "occupied": 0,
+    "gero_labels": {
+     "10i": 9,
+     "10R": 9
+    }
+   },
+   {
+    "key": [
+     10,
+     "10i"
+    ],
+    "name": "10i",
+    "n": 44,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     34,
+     4,
+     5,
+     0,
+     1
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "10i": 43,
+     "10-NOISE": 1
+    }
+   }
+  ],
+  "c_obs": 34,
+  "ratio_obs": 0.671055987680766,
+  "t2": [
+   {
+    "n": 52,
+    "h_crit": 0.01203195043778257,
+    "exceed": 304,
+    "B": 999,
+    "p": 0.305,
+    "key": [
+     3,
+     "3D"
+    ],
+    "name": "3D",
+    "n_all": 55,
+    "n_trimmed_out": 3,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.31
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 39,
+    "h_crit": 0.09791411944726415,
+    "exceed": 166,
+    "B": 999,
+    "p": 0.167,
+    "key": [
+     3,
+     "3R"
+    ],
+    "name": "3R",
+    "n_all": 39,
+    "n_trimmed_out": 0,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.14,
+     0.39,
+     0.77
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 108,
+    "h_crit": 0.11473252236898863,
+    "exceed": 0,
+    "B": 999,
+    "p": 0.001,
+    "key": [
+     4,
+     "1+3"
+    ],
+    "name": "1+3",
+    "n_all": 108,
+    "n_trimmed_out": 0,
+    "known_variant": true,
+    "modes_at_bw": [
+     0.39,
+     0.75
+    ],
+    "holm_reject": true
+   },
+   {
+    "n": 218,
+    "h_crit": 0.017828895588521472,
+    "exceed": 183,
+    "B": 999,
+    "p": 0.184,
+    "key": [
+     4,
+     "4D"
+    ],
+    "name": "4D",
+    "n_all": 251,
+    "n_trimmed_out": 33,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.52
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 406,
+    "h_crit": 0.19469051216292763,
+    "exceed": 0,
+    "B": 999,
+    "p": 0.001,
+    "key": [
+     4,
+     "4R"
+    ],
+    "name": "4R",
+    "n_all": 406,
+    "n_trimmed_out": 0,
+    "known_variant": true,
+    "modes_at_bw": [
+     0.23,
+     0.39,
+     0.5,
+     0.79,
+     0.96,
+     1.02,
+     1.24
+    ],
+    "holm_reject": true
+   },
+   {
+    "n": 3479,
+    "h_crit": 0.13518517040964514,
+    "exceed": 0,
+    "B": 999,
+    "p": 0.001,
+    "key": [
+     5,
+     "1+1+3"
+    ],
+    "name": "1+1+3",
+    "n_all": 3479,
+    "n_trimmed_out": 0,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.34,
+     0.83,
+     1.03,
+     1.27
+    ],
+    "holm_reject": true
+   },
+   {
+    "n": 126,
+    "h_crit": 0.1318791310407643,
+    "exceed": 0,
+    "B": 999,
+    "p": 0.001,
+    "key": [
+     5,
+     "2+3"
+    ],
+    "name": "2+3",
+    "n_all": 126,
+    "n_trimmed_out": 0,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.16,
+     0.27,
+     0.65,
+     0.86
+    ],
+    "holm_reject": true
+   },
+   {
+    "n": 2070,
+    "h_crit": 0.09815978177495399,
+    "exceed": 0,
+    "B": 999,
+    "p": 0.001,
+    "key": [
+     5,
+     "5R"
+    ],
+    "name": "5R",
+    "n_all": 2086,
+    "n_trimmed_out": 16,
+    "known_variant": true,
+    "modes_at_bw": [
+     0.33,
+     0.51,
+     0.76
+    ],
+    "holm_reject": true
+   },
+   {
+    "n": 347,
+    "h_crit": 0.18580219340724313,
+    "exceed": 8,
+    "B": 999,
+    "p": 0.009,
+    "key": [
+     6,
+     "6i"
+    ],
+    "name": "6i",
+    "n_all": 347,
+    "n_trimmed_out": 0,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.4,
+     0.76,
+     0.92,
+     1.01,
+     1.2,
+     1.36,
+     1.46,
+     1.7
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 212,
+    "h_crit": 0.14725581784300956,
+    "exceed": 6,
+    "B": 999,
+    "p": 0.007,
+    "key": [
+     7,
+     "7D"
+    ],
+    "name": "7D",
+    "n_all": 212,
+    "n_trimmed_out": 0,
+    "known_variant": true,
+    "modes_at_bw": [
+     0.41,
+     0.48,
+     0.8,
+     1.34,
+     1.57
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 137,
+    "h_crit": 0.08227817187942646,
+    "exceed": 96,
+    "B": 999,
+    "p": 0.097,
+    "key": [
+     7,
+     "7i"
+    ],
+    "name": "7i",
+    "n_all": 148,
+    "n_trimmed_out": 11,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.32,
+     0.6,
+     0.93
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 34,
+    "h_crit": 0.08240778465976217,
+    "exceed": 89,
+    "B": 999,
+    "p": 0.09,
+    "key": [
+     8,
+     "8R"
+    ],
+    "name": "8R",
+    "n_all": 43,
+    "n_trimmed_out": 9,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.87,
+     1.06,
+     1.25,
+     1.4,
+     1.52
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 160,
+    "h_crit": 0.02984424172846065,
+    "exceed": 26,
+    "B": 999,
+    "p": 0.027,
+    "key": [
+     8,
+     "8i"
+    ],
+    "name": "8i",
+    "n_all": 177,
+    "n_trimmed_out": 17,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.35
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 36,
+    "h_crit": 0.2560211843406729,
+    "exceed": 33,
+    "B": 999,
+    "p": 0.034,
+    "key": [
+     9,
+     "9R"
+    ],
+    "name": "9R",
+    "n_all": 36,
+    "n_trimmed_out": 0,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.38,
+     0.5,
+     0.63,
+     0.68,
+     0.97,
+     1.08,
+     1.21,
+     1.34,
+     1.54,
+     1.69
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 119,
+    "h_crit": 0.05082212730824776,
+    "exceed": 13,
+    "B": 999,
+    "p": 0.014,
+    "key": [
+     9,
+     "9i"
+    ],
+    "name": "9i",
+    "n_all": 129,
+    "n_trimmed_out": 10,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.37,
+     0.61
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 38,
+    "h_crit": 0.0225068589603546,
+    "exceed": 452,
+    "B": 999,
+    "p": 0.453,
+    "key": [
+     10,
+     "10i"
+    ],
+    "name": "10i",
+    "n_all": 44,
+    "n_trimmed_out": 6,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.37
+    ],
+    "holm_reject": false
+   }
+  ],
+  "t2_seconds": 41.3,
+  "t1": {
+   "B": 999,
+   "real_maxima": [
+    0.33,
+    0.51,
+    0.8,
+    1.02,
+    1.26
+   ],
+   "mode_hit_rate": [
+    0.998998998998999,
+    0.11511511511511512,
+    0.2982982982982983,
+    0.18618618618618618,
+    0.035035035035035036
+   ],
+   "f_all": 0.0,
+   "null_n_maxima_mean": 3.201201201201201,
+   "null_share_exactly_5": 0.04904904904904905,
+   "null_c_mean": 37.512512512512515,
+   "null_c_max": 40,
+   "null_c_min": 35,
+   "null_ratio_mean": 0.6860075019960661,
+   "c_obs": 34,
+   "p_c": 1.0
+  },
+  "t1_seconds": 28.4,
+  "t3": [
+   {
+    "key": [
+     4,
+     "1+3"
+    ],
+    "name": "1+3",
+    "units": [
+     {
+      "n": 72,
+      "h_crit": 0.03395122253733811,
+      "exceed": 0,
+      "B": 199,
+      "p": 0.005,
+      "unit": "N",
+      "cells": [
+       70,
+       2,
+       0,
+       0,
+       0
+      ],
+      "tempo_types_used": 1,
+      "modal_tempo": 0,
+      "holm_reject": true
+     }
+    ],
+    "label": "WITHIN_UNIT",
+    "top_unit_share": 0.6666666666666666
+   },
+   {
+    "key": [
+     4,
+     "4R"
+    ],
+    "name": "4R",
+    "units": [
+     {
+      "n": 320,
+      "h_crit": 0.13016442288714317,
+      "exceed": 0,
+      "B": 199,
+      "p": 0.005,
+      "unit": "A",
+      "cells": [
+       15,
+       4,
+       122,
+       102,
+       77
+      ],
+      "tempo_types_used": 3,
+      "modal_tempo": 2,
+      "holm_reject": true
+     },
+     {
+      "n": 43,
+      "h_crit": 0.08450634149516563,
+      "exceed": 56,
+      "B": 199,
+      "p": 0.285,
+      "unit": "F",
+      "cells": [
+       38,
+       3,
+       2,
+       0,
+       0
+      ],
+      "tempo_types_used": 1,
+      "modal_tempo": 0,
+      "holm_reject": false
+     }
+    ],
+    "label": "WITHIN_UNIT",
+    "top_unit_share": 0.7881773399014779
+   },
+   {
+    "key": [
+     5,
+     "1+1+3"
+    ],
+    "name": "1+1+3",
+    "units": [
+     {
+      "n": 802,
+      "h_crit": 0.11117952118735465,
+      "exceed": 0,
+      "B": 199,
+      "p": 0.005,
+      "unit": "A",
+      "cells": [
+       9,
+       4,
+       286,
+       220,
+       283
+      ],
+      "tempo_types_used": 3,
+      "modal_tempo": 2,
+      "holm_reject": true
+     },
+     {
+      "n": 87,
+      "h_crit": 0.14726460949474235,
+      "exceed": 1,
+      "B": 199,
+      "p": 0.01,
+      "unit": "D",
+      "cells": [
+       6,
+       0,
+       43,
+       13,
+       25
+      ],
+      "tempo_types_used": 3,
+      "modal_tempo": 2,
+      "holm_reject": false
+     },
+     {
+      "n": 588,
+      "h_crit": 0.10507283607309872,
+      "exceed": 2,
+      "B": 199,
+      "p": 0.015,
+      "unit": "F",
+      "cells": [
+       4,
+       1,
+       79,
+       100,
+       404
+      ],
+      "tempo_types_used": 3,
+      "modal_tempo": 4,
+      "holm_reject": false
+     },
+     {
+      "n": 696,
+      "h_crit": 0.17201868222304698,
+      "exceed": 0,
+      "B": 199,
+      "p": 0.005,
+      "unit": "J",
+      "cells": [
+       13,
+       0,
+       255,
+       89,
+       339
+      ],
+      "tempo_types_used": 3,
+      "modal_tempo": 4,
+      "holm_reject": true
+     },
+     {
+      "n": 76,
+      "h_crit": 0.17310737958018524,
+      "exceed": 4,
+      "B": 199,
+      "p": 0.025,
+      "unit": "N",
+      "cells": [
+       17,
+       0,
+       36,
+       5,
+       18
+      ],
+      "tempo_types_used": 3,
+      "modal_tempo": 2,
+      "holm_reject": false
+     },
+     {
+      "n": 161,
+      "h_crit": 0.17458129827837968,
+      "exceed": 0,
+      "B": 199,
+      "p": 0.005,
+      "unit": "R",
+      "cells": [
+       15,
+       0,
+       40,
+       51,
+       55
+      ],
+      "tempo_types_used": 3,
+      "modal_tempo": 4,
+      "holm_reject": true
+     },
+     {
+      "n": 165,
+      "h_crit": 0.08399267707115965,
+      "exceed": 21,
+      "B": 199,
+      "p": 0.11,
+      "unit": "S",
+      "cells": [
+       0,
+       0,
+       16,
+       17,
+       132
+      ],
+      "tempo_types_used": 2,
+      "modal_tempo": 4,
+      "holm_reject": false
+     },
+     {
+      "n": 72,
+      "h_crit": 0.1784971636632737,
+      "exceed": 2,
+      "B": 199,
+      "p": 0.015,
+      "unit": "T",
+      "cells": [
+       15,
+       0,
+       18,
+       19,
+       20
+      ],
+      "tempo_types_used": 4,
+      "modal_tempo": 4,
+      "holm_reject": false
+     },
+     {
+      "n": 662,
+      "h_crit": 0.10112855743014314,
+      "exceed": 12,
+      "B": 199,
+      "p": 0.065,
+      "unit": "U",
+      "cells": [
+       2,
+       1,
+       96,
+       64,
+       499
+      ],
+      "tempo_types_used": 2,
+      "modal_tempo": 4,
+      "holm_reject": false
+     },
+     {
+      "n": 170,
+      "h_crit": 0.211210205475289,
+      "exceed": 0,
+      "B": 199,
+      "p": 0.005,
+      "unit": "V",
+      "cells": [
+       31,
+       0,
+       31,
+       39,
+       69
+      ],
+      "tempo_types_used": 4,
+      "modal_tempo": 4,
+      "holm_reject": true
+     }
+    ],
+    "label": "WITHIN_UNIT",
+    "top_unit_share": 0.2305260132221903
+   },
+   {
+    "key": [
+     5,
+     "2+3"
+    ],
+    "name": "2+3",
+    "units": [
+     {
+      "n": 33,
+      "h_crit": 0.17923405555660032,
+      "exceed": 1,
+      "B": 199,
+      "p": 0.01,
+      "unit": "F",
+      "cells": [
+       20,
+       1,
+       12,
+       0,
+       0
+      ],
+      "tempo_types_used": 2,
+      "modal_tempo": 0,
+      "holm_reject": true
+     },
+     {
+      "n": 39,
+      "h_crit": 0.029987739623121783,
+      "exceed": 21,
+      "B": 199,
+      "p": 0.11,
+      "unit": "V",
+      "cells": [
+       0,
+       4,
+       35,
+       0,
+       0
+      ],
+      "tempo_types_used": 1,
+      "modal_tempo": 2,
+      "holm_reject": false
+     }
+    ],
+    "label": "WITHIN_UNIT",
+    "top_unit_share": 0.30952380952380953
+   },
+   {
+    "key": [
+     5,
+     "5R"
+    ],
+    "name": "5R",
+    "units": [
+     {
+      "n": 256,
+      "h_crit": 0.1682308106302801,
+      "exceed": 0,
+      "B": 199,
+      "p": 0.005,
+      "unit": "A",
+      "cells": [
+       141,
+       15,
+       97,
+       3,
+       0
+      ],
+      "tempo_types_used": 2,
+      "modal_tempo": 0,
+      "holm_reject": true
+     },
+     {
+      "n": 177,
+      "h_crit": 0.14328892612733324,
+      "exceed": 0,
+      "B": 199,
+      "p": 0.005,
+      "unit": "D",
+      "cells": [
+       150,
+       2,
+       25,
+       0,
+       0
+      ],
+      "tempo_types_used": 2,
+      "modal_tempo": 0,
+      "holm_reject": true
+     },
+     {
+      "n": 312,
+      "h_crit": 0.0800000134038627,
+      "exceed": 4,
+      "B": 199,
+      "p": 0.025,
+      "unit": "F",
+      "cells": [
+       120,
+       97,
+       94,
+       1,
+       0
+      ],
+      "tempo_types_used": 3,
+      "modal_tempo": 0,
+      "holm_reject": true
+     },
+     {
+      "n": 209,
+      "h_crit": 0.14494872890430996,
+      "exceed": 0,
+      "B": 199,
+      "p": 0.005,
+      "unit": "J",
+      "cells": [
+       142,
+       13,
+       54,
+       0,
+       0
+      ],
+      "tempo_types_used": 2,
+      "modal_tempo": 0,
+      "holm_reject": true
+     },
+     {
+      "n": 115,
+      "h_crit": 0.06951457699060079,
+      "exceed": 1,
+      "B": 199,
+      "p": 0.01,
+      "unit": "N",
+      "cells": [
+       70,
+       34,
+       11,
+       0,
+       0
+      ],
+      "tempo_types_used": 2,
+      "modal_tempo": 0,
+      "holm_reject": true
+     },
+     {
+      "n": 76,
+      "h_crit": 0.11456791707012351,
+      "exceed": 2,
+      "B": 199,
+      "p": 0.015,
+      "unit": "R",
+      "cells": [
+       54,
+       6,
+       15,
+       1,
+       0
+      ],
+      "tempo_types_used": 2,
+      "modal_tempo": 0,
+      "holm_reject": true
+     },
+     {
+      "n": 241,
+      "h_crit": 0.07183574284984112,
+      "exceed": 1,
+      "B": 199,
+      "p": 0.01,
+      "unit": "S",
+      "cells": [
+       228,
+       9,
+       4,
+       0,
+       0
+      ],
+      "tempo_types_used": 1,
+      "modal_tempo": 0,
+      "holm_reject": true
+     },
+     {
+      "n": 218,
+      "h_crit": 0.10152727666594831,
+      "exceed": 0,
+      "B": 199,
+      "p": 0.005,
+      "unit": "T",
+      "cells": [
+       210,
+       1,
+       7,
+       0,
+       0
+      ],
+      "tempo_types_used": 1,
+      "modal_tempo": 0,
+      "holm_reject": true
+     },
+     {
+      "n": 306,
+      "h_crit": 0.06980382529092756,
+      "exceed": 0,
+      "B": 199,
+      "p": 0.005,
+      "unit": "U",
+      "cells": [
+       173,
+       111,
+       22,
+       0,
+       0
+      ],
+      "tempo_types_used": 2,
+      "modal_tempo": 0,
+      "holm_reject": true
+     },
+     {
+      "n": 160,
+      "h_crit": 0.0583106289675798,
+      "exceed": 31,
+      "B": 199,
+      "p": 0.16,
+      "unit": "V",
+      "cells": [
+       148,
+       7,
+       5,
+       0,
+       0
+      ],
+      "tempo_types_used": 1,
+      "modal_tempo": 0,
+      "holm_reject": false
+     }
+    ],
+    "label": "WITHIN_UNIT",
+    "top_unit_share": 0.15072463768115943
+   }
+  ]
+ },
+ "rl": {
+  "n_assigned": 7263,
+  "n_other": 474,
+  "n_rhythms": 19,
+  "n_analysable": 14,
+  "rhythms": [
+   {
+    "key": [
+     3,
+     "3D"
+    ],
+    "name": "3D",
+    "n": 61,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     59,
+     2,
+     0,
+     0,
+     0
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "3D": 61
+    }
+   },
+   {
+    "key": [
+     3,
+     "3R"
+    ],
+    "name": "3R",
+    "n": 20,
+    "analysable": false,
+    "known_variant": false,
+    "cells": [
+     20,
+     0,
+     0,
+     0,
+     0
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "3R": 20
+    }
+   },
+   {
+    "key": [
+     4,
+     "1+3"
+    ],
+    "name": "1+3",
+    "n": 122,
+    "analysable": true,
+    "known_variant": true,
+    "cells": [
+     70,
+     6,
+     46,
+     0,
+     0
+    ],
+    "occupied": 2,
+    "gero_labels": {
+     "1+32": 71,
+     "1+31": 51
+    }
+   },
+   {
+    "key": [
+     4,
+     "4D"
+    ],
+    "name": "4D",
+    "n": 219,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     1,
+     218,
+     0,
+     0,
+     0
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "4D": 219
+    }
+   },
+   {
+    "key": [
+     4,
+     "4R"
+    ],
+    "name": "4R",
+    "n": 385,
+    "analysable": true,
+    "known_variant": true,
+    "cells": [
+     82,
+     0,
+     122,
+     104,
+     77
+    ],
+    "occupied": 4,
+    "gero_labels": {
+     "4R2": 303,
+     "4R1": 82
+    }
+   },
+   {
+    "key": [
+     5,
+     "1+1+3"
+    ],
+    "name": "1+1+3",
+    "n": 3574,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     0,
+     0,
+     1151,
+     603,
+     1820
+    ],
+    "occupied": 3,
+    "gero_labels": {
+     "1+1+3": 3574
+    }
+   },
+   {
+    "key": [
+     5,
+     "2+3"
+    ],
+    "name": "2+3",
+    "n": 77,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     0,
+     4,
+     73,
+     0,
+     0
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "2+3": 77
+    }
+   },
+   {
+    "key": [
+     5,
+     "5R"
+    ],
+    "name": "5R",
+    "n": 1816,
+    "analysable": true,
+    "known_variant": true,
+    "cells": [
+     1517,
+     280,
+     1,
+     5,
+     13
+    ],
+    "occupied": 2,
+    "gero_labels": {
+     "5R1": 1510,
+     "5R2": 287,
+     "5R3": 19
+    }
+   },
+   {
+    "key": [
+     6,
+     "6R"
+    ],
+    "name": "6R",
+    "n": 3,
+    "analysable": false,
+    "known_variant": false,
+    "cells": [
+     0,
+     0,
+     0,
+     0,
+     3
+    ],
+    "occupied": 0,
+    "gero_labels": {
+     "6R": 3
+    }
+   },
+   {
+    "key": [
+     6,
+     "6i"
+    ],
+    "name": "6i",
+    "n": 182,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     147,
+     29,
+     6,
+     0,
+     0
+    ],
+    "occupied": 2,
+    "gero_labels": {
+     "6i": 182
+    }
+   },
+   {
+    "key": [
+     7,
+     "7D"
+    ],
+    "name": "7D",
+    "n": 206,
+    "analysable": true,
+    "known_variant": true,
+    "cells": [
+     0,
+     0,
+     5,
+     35,
+     166
+    ],
+    "occupied": 2,
+    "gero_labels": {
+     "7D1": 171,
+     "7D2": 35
+    }
+   },
+   {
+    "key": [
+     7,
+     "7i"
+    ],
+    "name": "7i",
+    "n": 145,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     113,
+     23,
+     8,
+     1,
+     0
+    ],
+    "occupied": 2,
+    "gero_labels": {
+     "7i": 145
+    }
+   },
+   {
+    "key": [
+     8,
+     "8D"
+    ],
+    "name": "8D",
+    "n": 18,
+    "analysable": false,
+    "known_variant": false,
+    "cells": [
+     0,
+     0,
+     0,
+     0,
+     18
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "8D": 18
+    }
+   },
+   {
+    "key": [
+     8,
+     "8R"
+    ],
+    "name": "8R",
+    "n": 41,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     0,
+     1,
+     1,
+     1,
+     38
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "8R": 41
+    }
+   },
+   {
+    "key": [
+     8,
+     "8i"
+    ],
+    "name": "8i",
+    "n": 178,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     160,
+     9,
+     9,
+     0,
+     0
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "8i": 178
+    }
+   },
+   {
+    "key": [
+     9,
+     "9R"
+    ],
+    "name": "9R",
+    "n": 20,
+    "analysable": false,
+    "known_variant": false,
+    "cells": [
+     0,
+     0,
+     1,
+     1,
+     18
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "9R": 20
+    }
+   },
+   {
+    "key": [
+     9,
+     "9i"
+    ],
+    "name": "9i",
+    "n": 135,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     113,
+     7,
+     14,
+     1,
+     0
+    ],
+    "occupied": 2,
+    "gero_labels": {
+     "9i": 135
+    }
+   },
+   {
+    "key": [
+     10,
+     "10R"
+    ],
+    "name": "10R",
+    "n": 9,
+    "analysable": false,
+    "known_variant": false,
+    "cells": [
+     0,
+     0,
+     0,
+     0,
+     9
+    ],
+    "occupied": 0,
+    "gero_labels": {
+     "10R": 9
+    }
+   },
+   {
+    "key": [
+     10,
+     "10i"
+    ],
+    "name": "10i",
+    "n": 52,
+    "analysable": true,
+    "known_variant": false,
+    "cells": [
+     41,
+     4,
+     6,
+     1,
+     0
+    ],
+    "occupied": 1,
+    "gero_labels": {
+     "10i": 52
+    }
+   }
+  ],
+  "c_obs": 25,
+  "ratio_obs": 0.5315168597801284,
+  "t2": [
+   {
+    "n": 61,
+    "h_crit": 0.028382848418918787,
+    "exceed": 222,
+    "B": 999,
+    "p": 0.223,
+    "key": [
+     3,
+     "3D"
+    ],
+    "name": "3D",
+    "n_all": 61,
+    "n_trimmed_out": 0,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.31
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 122,
+    "h_crit": 0.13088972945379118,
+    "exceed": 0,
+    "B": 999,
+    "p": 0.001,
+    "key": [
+     4,
+     "1+3"
+    ],
+    "name": "1+3",
+    "n_all": 122,
+    "n_trimmed_out": 0,
+    "known_variant": true,
+    "modes_at_bw": [
+     0.39,
+     0.73
+    ],
+    "holm_reject": true
+   },
+   {
+    "n": 217,
+    "h_crit": 0.005028855804078431,
+    "exceed": 868,
+    "B": 999,
+    "p": 0.869,
+    "key": [
+     4,
+     "4D"
+    ],
+    "name": "4D",
+    "n_all": 219,
+    "n_trimmed_out": 2,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.52
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 385,
+    "h_crit": 0.21542051522272637,
+    "exceed": 0,
+    "B": 999,
+    "p": 0.001,
+    "key": [
+     4,
+     "4R"
+    ],
+    "name": "4R",
+    "n_all": 385,
+    "n_trimmed_out": 0,
+    "known_variant": true,
+    "modes_at_bw": [
+     0.23,
+     0.79,
+     0.96,
+     1.02,
+     1.23
+    ],
+    "holm_reject": true
+   },
+   {
+    "n": 3574,
+    "h_crit": 0.11978900113542795,
+    "exceed": 0,
+    "B": 999,
+    "p": 0.001,
+    "key": [
+     5,
+     "1+1+3"
+    ],
+    "name": "1+1+3",
+    "n_all": 3574,
+    "n_trimmed_out": 0,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.81,
+     1.03,
+     1.27
+    ],
+    "holm_reject": true
+   },
+   {
+    "n": 77,
+    "h_crit": 0.012299092717684243,
+    "exceed": 282,
+    "B": 999,
+    "p": 0.283,
+    "key": [
+     5,
+     "2+3"
+    ],
+    "name": "2+3",
+    "n_all": 77,
+    "n_trimmed_out": 0,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.65
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 1529,
+    "h_crit": 0.019958202584078884,
+    "exceed": 0,
+    "B": 999,
+    "p": 0.001,
+    "key": [
+     5,
+     "5R"
+    ],
+    "name": "5R",
+    "n_all": 1816,
+    "n_trimmed_out": 287,
+    "known_variant": true,
+    "modes_at_bw": [
+     0.33
+    ],
+    "holm_reject": true
+   },
+   {
+    "n": 182,
+    "h_crit": 0.03591964245376557,
+    "exceed": 532,
+    "B": 999,
+    "p": 0.533,
+    "key": [
+     6,
+     "6i"
+    ],
+    "name": "6i",
+    "n_all": 182,
+    "n_trimmed_out": 0,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.4,
+     0.61
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 206,
+    "h_crit": 0.05279271479500895,
+    "exceed": 407,
+    "B": 999,
+    "p": 0.408,
+    "key": [
+     7,
+     "7D"
+    ],
+    "name": "7D",
+    "n_all": 206,
+    "n_trimmed_out": 0,
+    "known_variant": true,
+    "modes_at_bw": [
+     1.15,
+     1.34,
+     1.57
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 143,
+    "h_crit": 0.04378004870167746,
+    "exceed": 330,
+    "B": 999,
+    "p": 0.331,
+    "key": [
+     7,
+     "7i"
+    ],
+    "name": "7i",
+    "n_all": 145,
+    "n_trimmed_out": 2,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.32,
+     0.59
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 39,
+    "h_crit": 0.037322723191877724,
+    "exceed": 473,
+    "B": 999,
+    "p": 0.474,
+    "key": [
+     8,
+     "8R"
+    ],
+    "name": "8R",
+    "n_all": 41,
+    "n_trimmed_out": 2,
+    "known_variant": false,
+    "modes_at_bw": [
+     1.24,
+     1.4,
+     1.52
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 166,
+    "h_crit": 0.029101450284612796,
+    "exceed": 41,
+    "B": 999,
+    "p": 0.042,
+    "key": [
+     8,
+     "8i"
+    ],
+    "name": "8i",
+    "n_all": 178,
+    "n_trimmed_out": 12,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.35
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 125,
+    "h_crit": 0.05146555710970416,
+    "exceed": 10,
+    "B": 999,
+    "p": 0.011,
+    "key": [
+     9,
+     "9i"
+    ],
+    "name": "9i",
+    "n_all": 135,
+    "n_trimmed_out": 10,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.37,
+     0.61
+    ],
+    "holm_reject": false
+   },
+   {
+    "n": 45,
+    "h_crit": 0.021839608180819762,
+    "exceed": 764,
+    "B": 999,
+    "p": 0.765,
+    "key": [
+     10,
+     "10i"
+    ],
+    "name": "10i",
+    "n_all": 52,
+    "n_trimmed_out": 7,
+    "known_variant": false,
+    "modes_at_bw": [
+     0.37
+    ],
+    "holm_reject": false
+   }
+  ],
+  "t2_seconds": 37.2,
+  "t1": {
+   "B": 999,
+   "real_maxima": [
+    0.33,
+    0.51,
+    0.8,
+    1.02,
+    1.26
+   ],
+   "mode_hit_rate": [
+    1.0,
+    1.0,
+    0.007007007007007007,
+    0.32432432432432434,
+    0.031031031031031032
+   ],
+   "f_all": 0.0,
+   "null_n_maxima_mean": 4.177177177177177,
+   "null_share_exactly_5": 0.25925925925925924,
+   "null_c_mean": 28.145145145145147,
+   "null_c_max": 31,
+   "null_c_min": 26,
+   "null_ratio_mean": 0.5502176234174156,
+   "c_obs": 25,
+   "p_c": 1.0
+  },
+  "t1_seconds": 33.9
+ },
+ "k4": {
+  "pseudo_maxima": [
+   0.35,
+   1.14
+  ],
+  "f_all": 0.8442211055276382,
+  "mode_hit_rate": [
+   1.0,
+   0.8442211055276382
+  ],
+  "B": 199
+ },
+ "calibration": [
+  {
+   "config": "gauss",
+   "bimodal": false,
+   "n": 50,
+   "sims": 100,
+   "rejections": 1,
+   "rate": 0.01
+  },
+  {
+   "config": "gauss",
+   "bimodal": false,
+   "n": 200,
+   "sims": 100,
+   "rejections": 0,
+   "rate": 0.0
+  },
+  {
+   "config": "gauss",
+   "bimodal": false,
+   "n": 800,
+   "sims": 100,
+   "rejections": 0,
+   "rate": 0.0
+  },
+  {
+   "config": "lognormal",
+   "bimodal": false,
+   "n": 50,
+   "sims": 100,
+   "rejections": 2,
+   "rate": 0.02
+  },
+  {
+   "config": "lognormal",
+   "bimodal": false,
+   "n": 200,
+   "sims": 100,
+   "rejections": 1,
+   "rate": 0.01
+  },
+  {
+   "config": "lognormal",
+   "bimodal": false,
+   "n": 800,
+   "sims": 100,
+   "rejections": 0,
+   "rate": 0.0
+  },
+  {
+   "config": "mix50",
+   "bimodal": true,
+   "n": 50,
+   "sims": 100,
+   "rejections": 68,
+   "rate": 0.68
+  },
+  {
+   "config": "mix50",
+   "bimodal": true,
+   "n": 200,
+   "sims": 100,
+   "rejections": 100,
+   "rate": 1.0
+  },
+  {
+   "config": "mix50",
+   "bimodal": true,
+   "n": 800,
+   "sims": 100,
+   "rejections": 100,
+   "rate": 1.0
+  },
+  {
+   "config": "mix80",
+   "bimodal": true,
+   "n": 50,
+   "sims": 100,
+   "rejections": 27,
+   "rate": 0.27
+  },
+  {
+   "config": "mix80",
+   "bimodal": true,
+   "n": 200,
+   "sims": 100,
+   "rejections": 72,
+   "rate": 0.72
+  },
+  {
+   "config": "mix80",
+   "bimodal": true,
+   "n": 800,
+   "sims": 100,
+   "rejections": 100,
+   "rate": 1.0
+  }
+ ],
+ "calibration_seconds": 893.8,
+ "grade": {
+  "labels": {
+   "T1": "TEMPO_MODES_NEED_WITHIN_RHYTHM_TEMPO",
+   "T1_rl": "TEMPO_MODES_NEED_WITHIN_RHYTHM_TEMPO",
+   "T2": "TEMPO_DISCRETE_BEYOND_KNOWN_TYPES",
+   "T4": "COMBINATIONS_MATCHED_BY_CUTTING",
+   "T3": [
+    "WITHIN_UNIT",
+    "WITHIN_UNIT",
+    "WITHIN_UNIT",
+    "WITHIN_UNIT",
+    "WITHIN_UNIT"
+   ]
+  },
+  "predictions": {
+   "P1": true,
+   "P2": true,
+   "P3": false,
+   "P4": true,
+   "P5": true,
+   "P6": false,
+   "P7": true,
+   "P8": true,
+   "P9": true,
+   "P10": true
+  },
+  "priors": {
+   "P1": 0.85,
+   "P2": 0.85,
+   "P3": 0.35,
+   "P4": 0.35,
+   "P5": 0.4,
+   "P6": 0.5,
+   "P7": 0.85,
+   "P8": 0.7,
+   "P9": 0.6,
+   "P10": 0.7
+  },
+  "n_scored": 10,
+  "brier": 0.15625
+ },
+ "status": "ok",
+ "seconds": 1051.5
+}
